@@ -2007,3 +2007,25 @@ a:focus-visible {
 .navbar-brand:focus-visible {
   border: 2.5px solid #6ec1e4 !important;
 }
+
+.nav-link:focus-visible {
+  border-bottom: 2.5px solid #fff;
+  box-shadow: 0 2px 8px 0 rgba(30,34,90,0.18);
+  background: none;
+  color: #fff;
+}
+
+/* --- Navbar Brand Focus Styles --- */
+.navbar-brand {
+  border-bottom: 2.5px solid transparent;
+  padding-bottom: 10px;
+  transition: border-color 0.2s, box-shadow 0.2s, padding 0.2s;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.navbar-brand:focus-visible {
+  border-bottom: 2.5px solid #fff;
+  box-shadow: 0 2px 8px 0 rgba(30,34,90,0.18);
+}
